@@ -15,6 +15,7 @@
   * { box-sizing: border-box; }
   body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: var(--bg); color: var(--text); font: 17px/1.55 var(--ff); }
   main { width: min(880px, 100%); padding: 48px 16px; }
+  .mark { font-weight: 700; margin: 0 0 48px; }
   .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 80px; }
   h1 { font: 600 30px/1.25 var(--ff); margin: 0 0 24px; }
   .to { font: 400 30px/1.25 var(--mono); color: var(--text); text-decoration: none; }
@@ -22,17 +23,19 @@
   a { color: var(--text); text-decoration: none; } p.note a { color: var(--accent); }
   @media (max-width: 600px) {
     .cols { grid-template-columns: 1fr; gap: 48px 0; }
+    .mark { margin-bottom: 36px; }
   }
 </style></head>
 <body><main>
+<div class="mark">Konjunkturmonitor</div>
 <div class="cols">
   <section lang="de">
-    <h1>Der Konjunkturmonitor ist umgezogen nach<br><a class="to" href="https://makrowolf.de">makrowolf.de</a></h1>
+    <h1>ist umgezogen nach<br><a class="to" href="https://makrowolf.de">makrowolf.de</a></h1>
     <p>Bitte Lesezeichen und Links anpassen.</p>
     <p class="note">Bald nur mit Anmeldung. Zugang per E-Mail an <a href="mailto:wfhunger@stanford.edu">wfhunger@stanford.edu</a>.</p>
   </section>
   <section lang="en">
-    <h1>The Konjunkturmonitor has moved to<br><a class="to" href="https://macrowolf.eu">macrowolf.eu</a></h1>
+    <h1>has moved to<br><a class="to" href="https://macrowolf.eu">macrowolf.eu</a></h1>
     <p>Please update your bookmarks and links.</p>
     <p class="note">Sign-in required soon. Request access by email to <a href="mailto:wfhunger@stanford.edu">wfhunger@stanford.edu</a>.</p>
   </section>
