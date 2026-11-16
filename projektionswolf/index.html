@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>projektionswolf ist umgezogen · has moved</title>
+<meta name="robots" content="noindex">
+<style>
+  /* Formsprache des Konjunkturmonitors: Source Sans 3, schwarz auf #f7f7f5, graue Labels, Blau nur als Akzent */
+  @font-face { font-family: "Source Sans 3"; font-weight: 400; font-display: swap; src: url("/fonts/source-sans-3-latin-400-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Source Sans 3"; font-weight: 600; font-display: swap; src: url("/fonts/source-sans-3-latin-600-normal.woff2") format("woff2"); }
+  @font-face { font-family: "Source Sans 3"; font-weight: 700; font-display: swap; src: url("/fonts/source-sans-3-latin-700-normal.woff2") format("woff2"); }
+  /* zwei Größen (17 und 30 px), zwei Farben (Schwarz, Flaschengrün nur für die E-Mail) */
+  :root { --bg: #f7f7f5; --text: #000; --accent: #006A4E;
+          --ff: "Source Sans 3", "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+          --mono: "Courier New", Courier, monospace; }
+  * { box-sizing: border-box; }
+  body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: var(--bg); color: var(--text); font: 17px/1.55 var(--ff); }
+  main { width: min(880px, 100%); padding: 48px 16px; }
+  .mark { font-weight: 700; margin: 0 0 48px; }
+  .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 0 80px; }
+  h1 { font: 400 17px/1.55 var(--ff); margin: 0 0 24px; }
+  .to { font: 400 30px/1.25 var(--mono); color: var(--text); text-decoration: none; }
+  p { margin: 0 0 8px; max-width: 26em; }
+  a { color: var(--text); text-decoration: none; } p.note a { color: var(--accent); }
+  @media (max-width: 600px) {
+    .cols { grid-template-columns: 1fr; gap: 48px 0; }
+    .mark { margin-bottom: 36px; }
+  }
+</style></head>
+<body><main>
+<div class="mark">projektionswolf</div>
+<div class="cols">
+  <section lang="de">
+    <h1>ist umgezogen nach<br><a class="to" href="https://hungerland-macro.github.io/projektionswolf/">hungerland&#8209;macro<br>.github.io/<br>projektionswolf</a></h1>
+    <p>Bitte Lesezeichen und Links anpassen.</p>
+  </section>
+  <section lang="en">
+    <h1>has moved to<br><a class="to" href="https://hungerland-macro.github.io/projektionswolf/">hungerland&#8209;macro<br>.github.io/<br>projektionswolf</a></h1>
+    <p>Please update your bookmarks and links.</p>
+  </section>
+</div>
+</main></body></html>
